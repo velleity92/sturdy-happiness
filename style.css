@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+
+}
+
+.container {  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+canvas {
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+    padding: 20;
+    height: 1000px;
+    width: 500px;
+    background-color: white;
+}
